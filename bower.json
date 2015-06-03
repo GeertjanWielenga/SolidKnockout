@@ -7,6 +7,11 @@
         "**/*.txt"
     ],
     "dependencies": {
+        "knockout": "3.3.0",
+        "requirejs-text": "2.0.14",
+        "requirejs": "2.1.17",
+        "bootstrap-dropdown": "*",
+        "jquery": "2.1.4"
     },
     "devDependencies": {
     }

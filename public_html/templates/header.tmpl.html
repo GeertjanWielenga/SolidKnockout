@@ -1,0 +1,15 @@
+<div class="navbar navbar-inverse navbar-fixed-top" >
+    <div class="container-fluid">
+        <div class="navbar-inner">
+            <ul class="nav navbar-nav" data-bind="foreach: menus">
+                <li>
+                    <a data-bind="attr: { href: '#' }">
+                        <span data-bind="text: $data"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
