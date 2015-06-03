@@ -1,3 +1,5 @@
-# Solid Knockout is a template providing best principles for Knockout applications.
+# Solid Knockout
+
+A template providing best principles for Knockout applications.
 
 
