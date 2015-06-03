@@ -1,6 +1,6 @@
 # Solid Knockout
 
-A template providing best practices for Knockout applications.
+A modular Require.js template providing best practices for Knockout applications.
 
 <img src="https://blogs.oracle.com/geertjan/resource/solid-knockout-1.png" />
 
