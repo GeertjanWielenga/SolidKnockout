@@ -4,7 +4,7 @@ A modular Require.js template providing best practices for Knockout applications
 
 <img src="https://blogs.oracle.com/geertjan/resource/solid-knockout-1.png" />
 
-<img styles="border:1px solid black" src="https://blogs.oracle.com/geertjan/resource/solid-knockout-3.png" />
+<img style="border:1px solid black" src="https://blogs.oracle.com/geertjan/resource/solid-knockout-3.png" />
 
 For details, see:
 
