@@ -12,7 +12,7 @@ and Bootstrap for the styling of its view.
 
 For details, see:
 
-<a href="https://blogs.oracle.com/geertjan/entry/enterprise_web_development_with_solid1">Enterprise Web Development with Solid Knockout (Part 1)</a>
+<a href="https://blogs.oracle.com/geertjan/entry/enterprise_web_development_with_solid">Enterprise Web Development with Solid Knockout (Part 1)</a>
 
 <a href="https://blogs.oracle.com/geertjan/entry/enterprise_web_development_with_solid1">Enterprise Web Development with Solid Knockout (Part 2)</a>
 
