@@ -1,5 +1,5 @@
 define([], function () {
-    function MenuBarModel(params) {
+    function HeaderModel(params) {
         this.menus = [];
         for (var key in params) {
             if (key.substring(0, 3)===('tab')) {
@@ -8,7 +8,7 @@ define([], function () {
         }
     }
     return {
-        viewModel: MenuBarModel,
+        viewModel: HeaderModel,
         template: {
             require: 'text!templates/header.tmpl.html'
         }
