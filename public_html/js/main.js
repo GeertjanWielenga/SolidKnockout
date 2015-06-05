@@ -1,9 +1,9 @@
 require.config({
     baseUrl: './',
     paths: {
-        knockout: './bower_components/knockout/dist/knockout',
-        text: './bower_components/requirejs-text/text',
-        jquery: './bower_components/jquery/dist/jquery',
+        knockout: './js/libraries/knockout/dist/knockout',
+        text: './js/libraries/requirejs-text/text',
+        jquery: './js/libraries/jquery/dist/jquery',
         initComponents: './js/initComponents'
     },
     waitSeconds: 2
