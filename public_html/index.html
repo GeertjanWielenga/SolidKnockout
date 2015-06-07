@@ -8,13 +8,23 @@
             data-main="js/main.js">
         </script>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="js/libraries/foundation/css/foundation.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-    <!-- ko ifnot: weAreSmall -->
-    <div>
-        <a data-bind="ifnot: weAreSmall"class="logo" href="http://cocacola.com"></a>
-    </div>
-    <!-- /ko -->
+        
+        <!-- Start of example 1: Usage of Response.js -->
+        <!-- ko ifnot: weAreSmall -->
+        <div>
+            <a data-bind="ifnot: weAreSmall" class="logo" href="http://cocacola.com"></a>
+        </div>
+        <!-- /ko -->
+        <!-- End of example 1 -->
+        
+        <!-- Start of example 2: Usage of Foundation.js -->
+        <!-- http://foundation.zurb.com/docs/components/interchange.html -->
+        <div data-interchange="[fragments/small.html, (small)], [fragments/medium.html, (medium)], [fragments/large.html, (large)]"></div>
+        <!-- End of example 2 -->
+        
         <div data-bind="component: {
              name: 'header',params: {
                  tabHome: 'Home', 

@@ -12,7 +12,8 @@
     "requirejs": "2.1.17",
     "bootstrap-dropdown": "*",
     "jquery": "2.1.4",
-    "responsejs": "0.9.1"
+    "responsejs": "0.9.1",
+    "foundation": "5.5.2"
   },
   "devDependencies": {}
 }

@@ -5,18 +5,23 @@ require.config({
         text: './js/libraries/requirejs-text/text',
         jquery: './js/libraries/jquery/dist/jquery',
         response: './js/libraries/responsejs/response',
+        foundation: './js/libraries/foundation/js/foundation',
         initComponents: './js/initComponents'
     },
     // Shim configuration for modules that do not expose AMD:
     shim : {
         'response':{
             deps: ['jquery']
-        }  
+        },  
+        'foundation':{
+            deps: ['jquery']
+        }
     },
     waitSeconds: 2
 });
-require(['knockout', 'initComponents', 'response'],
+require(['knockout', 'initComponents', 'response', 'foundation'],
     function (ko, initComponents) {
+        $(document).foundation();
         var self = this;
         self.weAreSmall = ko.observable();
         Response.create({
