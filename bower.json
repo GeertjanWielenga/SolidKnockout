@@ -1,18 +1,18 @@
 {
-    "name": "Solid",
-    "version": "1.0.0",
-    "main": "path/to/main.css",
-    "ignore": [
-        ".jshintrc",
-        "**/*.txt"
-    ],
-    "dependencies": {
-        "knockout": "3.3.0",
-        "requirejs-text": "2.0.14",
-        "requirejs": "2.1.17",
-        "bootstrap-dropdown": "*",
-        "jquery": "2.1.4"
-    },
-    "devDependencies": {
-    }
+  "name": "Solid",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "knockout": "3.3.0",
+    "requirejs-text": "2.0.14",
+    "requirejs": "2.1.17",
+    "bootstrap-dropdown": "*",
+    "jquery": "2.1.4",
+    "responsejs": "0.9.1"
+  },
+  "devDependencies": {}
 }

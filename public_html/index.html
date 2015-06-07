@@ -10,6 +10,11 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+    <!-- ko ifnot: weAreSmall -->
+    <div>
+        <a data-bind="ifnot: weAreSmall"class="logo" href="http://cocacola.com"></a>
+    </div>
+    <!-- /ko -->
         <div data-bind="component: {
              name: 'header',params: {
                  tabHome: 'Home', 
