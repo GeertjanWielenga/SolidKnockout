@@ -2,7 +2,7 @@
 
 A modular Require.js template providing best practices for Knockout applications.
 
-<img src="https://blogs.oracle.com/geertjan/resource/solid-knockout-7.png" />
+<img src="https://blogs.oracle.com/geertjan/resource/solid-knockout-8.png" />
 
 When you run the application, you will see a basic starting point for
 a Knockout-based application that uses Require.js for its modularity
